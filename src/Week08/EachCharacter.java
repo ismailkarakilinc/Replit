@@ -21,11 +21,13 @@ public class EachCharacter {
             if(str.contains(""+chr)){
                 lengthAfter = str.replaceAll(""+chr,"").length();
             count = lengthBefore-lengthAfter;
+           // str = str.replaceAll(""+str.charAt(i),"");
             
         }
+            result += ""+count+chr;
             
     }
-        result += ""+count+chr;
+
         return result;
 
 
