@@ -10,7 +10,7 @@ public class Search {
         String result = "";
 
         for (String each : strs) {
-            if (each.equals(find)){
+            if (each.contains(find)){
                 result += each;
             }
 

@@ -8,12 +8,13 @@ public class TimesTwo {
 
     public static ArrayList<Integer> timesTwo(ArrayList<Integer> nums){
 
-        int index = 0;
+        ArrayList<Integer> result = new ArrayList<>();
+
         for (int each : nums) {
-            nums.set(index, each*2);
-            index++;
+            result.add(each*2);
+
         }
-        return nums;
+        return result;
     }
 
 
