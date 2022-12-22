@@ -8,11 +8,7 @@ public class Nanuk {
     public static boolean hunt(ArrayList<String> result,int wayStones,int boast) {
 
 
-
-
-
-
-
+        return false;
     }
 
     // Do not touch below
